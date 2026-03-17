@@ -4,7 +4,7 @@ setlocal ENABLEDELAYEDEXPANSION
 
 set package_name=_3d_rendering_engine
 set files=__init__.py __main__.py matrix_calculations.py
-set python_location=%userprofile%\AppData\Local\Programs\Python\Python39
+set python_location=%localappdata%\Programs\Python\Python313
 set target=nul
 
 
