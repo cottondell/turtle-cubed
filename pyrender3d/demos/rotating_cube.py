@@ -1,5 +1,4 @@
-from _3d_rendering_engine import Camera, Object
-import turtle
+from .context import *
 
 screen = turtle.Screen()
 screen.tracer(0)

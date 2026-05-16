@@ -1,12 +1,11 @@
-from _3d_rendering_engine import Camera, Object
-from turtle import *
+from .context import *
 
 # Configure turtle screen
-screen = Screen()
+screen = turtle.Screen()
 screen.tracer(0)
 
 # Configure turtle pen
-pen = Turtle()
+pen = turtle.Turtle()
 pen.hideturtle()
 
 # Initialise 3d camera
@@ -33,9 +32,9 @@ camera.add_objects(cube)
 render_loop()
 
 # Configure input listeners
-listen()
-onkeypress(rotate_left, "Left")
-onkeypress(rotate_right, "Right")
+turtle.listen()
+turtle.onkeypress(rotate_left, "Left")
+turtle.onkeypress(rotate_right, "Right")
 
 # Enter turtle screen mainloop
 screen.mainloop()

@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyrender3d"
+description = "Simple 3D renderer in Python using turtle."
+version = "1.0.0"
+authors = [
+    { name = "Dylan Beard"}
+]
+readme = "README.md"
